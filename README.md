@@ -5,22 +5,28 @@
 ##Pre-requisitos 📋
 
 #Para el proyecto se utilizo
-#vue-cli (4.5.x)
-#Axios
-#Eslint
-#babel-eslint (7.2.3)
-#vue-router
+##vue-cli (4.5.x)
+##Axios
+##Eslint
+##babel-eslint (7.2.3)
+##vue-router
 
 
 ##Instalación 🔧
- git clone URL
- npm install
- npm run serve
+## git clone URL
+## npm install
+## npm run serve
 
 
 ##Despliegue 📦
 
 npm run build
+git init
+git add -A
+git commit -m 'deploy'
+
+git push -f git@github.com:ManuelBeos/ManuelBeos.github.io.git master:gh-pages
+
 
 #Se publica mediante github pages
 
